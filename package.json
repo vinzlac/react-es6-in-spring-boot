@@ -1,0 +1,38 @@
+{
+  "name": "react-es6-in-spring-boot",
+  "version": "0.1.0",
+  "description": "Demo of ReactJS with ES6 in spring-boot",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vinzlac/react-es6-in-spring-boot"
+  },
+  "keywords": [
+    "rest",
+    "spring",
+    "react",
+    "es6"
+  ],
+  "author": "Greg L. Turnquist",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/vinzlac/react-es6-in-spring-boot",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "rest": "^1.3.1"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
